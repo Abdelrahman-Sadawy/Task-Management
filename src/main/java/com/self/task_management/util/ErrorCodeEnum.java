@@ -1,9 +1,7 @@
 package com.self.task_management.util;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
 import lombok.Getter;
-import lombok.Setter;
 
 import static com.self.task_management.util.ErrorConstants.*;
 
