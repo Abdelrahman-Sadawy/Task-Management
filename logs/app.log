@@ -1,0 +1,372 @@
+2025-08-10T13:44:34.635+03:00  INFO 20808 --- [task-management] [restartedMain] c.s.t.TaskManagementApplication          : Starting TaskManagementApplication using Java 17.0.12 with PID 20808 (C:\Users\Dell\Documents\IntelliJProjects\task-management\target\classes started by Dell in C:\Users\Dell\Documents\IntelliJProjects\task-management)
+2025-08-10T13:44:34.641+03:00  INFO 20808 --- [task-management] [restartedMain] c.s.t.TaskManagementApplication          : The following 1 profile is active: "local"
+2025-08-10T13:44:34.766+03:00  INFO 20808 --- [task-management] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-10T13:44:34.767+03:00  INFO 20808 --- [task-management] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-10T13:44:36.332+03:00  INFO 20808 --- [task-management] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-10T13:44:36.365+03:00  INFO 20808 --- [task-management] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+2025-08-10T13:44:37.329+03:00  INFO 20808 --- [task-management] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-10T13:44:37.351+03:00  INFO 20808 --- [task-management] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-10T13:44:37.352+03:00  INFO 20808 --- [task-management] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-10T13:44:37.443+03:00  INFO 20808 --- [task-management] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-10T13:44:37.444+03:00  INFO 20808 --- [task-management] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2669 ms
+2025-08-10T13:44:37.832+03:00  INFO 20808 --- [task-management] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-10T13:44:37.931+03:00  INFO 20808 --- [task-management] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-10T13:44:38.001+03:00  INFO 20808 --- [task-management] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-10T13:44:38.544+03:00  INFO 20808 --- [task-management] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-10T13:44:38.600+03:00  INFO 20808 --- [task-management] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-10T13:44:39.015+03:00  INFO 20808 --- [task-management] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6cb04d6e
+2025-08-10T13:44:39.018+03:00  INFO 20808 --- [task-management] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-10T13:44:39.120+03:00  INFO 20808 --- [task-management] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-10T13:44:39.765+03:00  INFO 20808 --- [task-management] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-10T13:44:39.774+03:00  INFO 20808 --- [task-management] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-10T13:44:40.054+03:00  WARN 20808 --- [task-management] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-10T13:44:40.303+03:00 DEBUG 20808 --- [task-management] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2025-08-10T13:44:40.460+03:00 DEBUG 20808 --- [task-management] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-08-10T13:44:40.521+03:00 DEBUG 20808 --- [task-management] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-08-10T13:44:40.596+03:00 DEBUG 20808 --- [task-management] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-08-10T13:44:40.969+03:00  WARN 20808 --- [task-management] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 1610265a-667d-46a9-8b2d-b6b03484940e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-08-10T13:44:40.983+03:00  INFO 20808 --- [task-management] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-08-10T13:44:41.339+03:00  INFO 20808 --- [task-management] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-10T13:44:41.424+03:00  INFO 20808 --- [task-management] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-10T13:44:41.449+03:00  INFO 20808 --- [task-management] [restartedMain] c.s.t.TaskManagementApplication          : Started TaskManagementApplication in 7.716 seconds (process running for 8.528)
+2025-08-10T13:48:28.449+03:00  INFO 20808 --- [task-management] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-10T13:48:29.029+03:00  INFO 20808 --- [task-management] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-10T13:48:29.035+03:00  INFO 20808 --- [task-management] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-10T13:48:29.042+03:00  INFO 20808 --- [task-management] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-10T13:48:29.050+03:00  INFO 20808 --- [task-management] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-10T13:51:31.678+03:00  INFO 16412 --- [task-management] [restartedMain] c.s.t.TaskManagementApplication          : Starting TaskManagementApplication using Java 17.0.12 with PID 16412 (C:\Users\Dell\Documents\IntelliJProjects\task-management\target\classes started by Dell in C:\Users\Dell\Documents\IntelliJProjects\task-management)
+2025-08-10T13:51:31.708+03:00  INFO 16412 --- [task-management] [restartedMain] c.s.t.TaskManagementApplication          : The following 1 profile is active: "local"
+2025-08-10T13:51:31.800+03:00  INFO 16412 --- [task-management] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-10T13:51:31.800+03:00  INFO 16412 --- [task-management] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-10T13:51:33.288+03:00  INFO 16412 --- [task-management] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-10T13:51:33.324+03:00  INFO 16412 --- [task-management] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+2025-08-10T13:51:34.315+03:00  INFO 16412 --- [task-management] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2025-08-10T13:51:34.349+03:00  INFO 16412 --- [task-management] [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2025-08-10T13:51:34.350+03:00  INFO 16412 --- [task-management] [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-10T13:51:34.428+03:00  INFO 16412 --- [task-management] [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2025-08-10T13:51:34.431+03:00  INFO 16412 --- [task-management] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2626 ms
+2025-08-10T13:51:34.834+03:00  INFO 16412 --- [task-management] [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-10T13:51:34.934+03:00  INFO 16412 --- [task-management] [restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-10T13:51:34.991+03:00  INFO 16412 --- [task-management] [restartedMain] o.h.c.i.RegionFactoryInitiator           : HHH000026: Second-level cache disabled
+2025-08-10T13:51:35.449+03:00  INFO 16412 --- [task-management] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-10T13:51:35.518+03:00  INFO 16412 --- [task-management] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2025-08-10T13:51:35.799+03:00  INFO 16412 --- [task-management] [restartedMain] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@a136071
+2025-08-10T13:51:35.801+03:00  INFO 16412 --- [task-management] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2025-08-10T13:51:35.936+03:00  INFO 16412 --- [task-management] [restartedMain] o.h.o.c.pooling                          : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-10T13:51:36.530+03:00  INFO 16412 --- [task-management] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-10T13:51:36.538+03:00  INFO 16412 --- [task-management] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-10T13:51:36.791+03:00  WARN 16412 --- [task-management] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-10T13:51:37.017+03:00 DEBUG 16412 --- [task-management] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2025-08-10T13:51:37.136+03:00 DEBUG 16412 --- [task-management] [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-08-10T13:51:37.187+03:00 DEBUG 16412 --- [task-management] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-08-10T13:51:37.270+03:00 DEBUG 16412 --- [task-management] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-08-10T13:51:37.619+03:00  WARN 16412 --- [task-management] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: cce31875-22cf-4d4b-a577-437571126c62
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-08-10T13:51:37.638+03:00  INFO 16412 --- [task-management] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-08-10T13:51:37.960+03:00  INFO 16412 --- [task-management] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-10T13:51:38.036+03:00  INFO 16412 --- [task-management] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2025-08-10T13:51:38.070+03:00  INFO 16412 --- [task-management] [restartedMain] c.s.t.TaskManagementApplication          : Started TaskManagementApplication in 7.351 seconds (process running for 8.664)
+2025-08-10T13:53:36.405+03:00  INFO 16412 --- [task-management] [SpringApplicationShutdownHook] o.s.b.w.e.t.GracefulShutdown             : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-10T13:53:36.938+03:00  INFO 16412 --- [task-management] [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown             : Graceful shutdown complete
+2025-08-10T13:53:36.944+03:00  INFO 16412 --- [task-management] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-10T13:53:36.952+03:00  INFO 16412 --- [task-management] [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2025-08-10T13:53:36.958+03:00  INFO 16412 --- [task-management] [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2025-08-10T15:20:50.123+03:00  INFO 21404 --- [/task-management] [restartedMain] c.s.t.TaskManagementApplication          : Starting TaskManagementApplication using Java 17.0.12 with PID 21404 (C:\Users\Dell\Documents\IntelliJProjects\task-management\target\classes started by Dell in C:\Users\Dell\Documents\IntelliJProjects\task-management)
+2025-08-10T15:20:50.143+03:00  INFO 21404 --- [/task-management] [restartedMain] c.s.t.TaskManagementApplication          : The following 1 profile is active: "local"
+2025-08-10T15:20:50.260+03:00  INFO 21404 --- [/task-management] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-10T15:20:50.261+03:00  INFO 21404 --- [/task-management] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-10T15:20:51.842+03:00  INFO 21404 --- [/task-management] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-10T15:20:51.962+03:00  INFO 21404 --- [/task-management] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 101 ms. Found 2 JPA repository interfaces.
+2025-08-10T15:20:53.020+03:00  INFO 21404 --- [/task-management] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2025-08-10T15:20:53.049+03:00  INFO 21404 --- [/task-management] [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2025-08-10T15:20:53.049+03:00  INFO 21404 --- [/task-management] [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-10T15:20:53.149+03:00  INFO 21404 --- [/task-management] [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2025-08-10T15:20:53.150+03:00  INFO 21404 --- [/task-management] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2885 ms
+2025-08-10T15:20:53.480+03:00  INFO 21404 --- [/task-management] [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-10T15:20:53.560+03:00  INFO 21404 --- [/task-management] [restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-10T15:20:53.621+03:00  INFO 21404 --- [/task-management] [restartedMain] o.h.c.i.RegionFactoryInitiator           : HHH000026: Second-level cache disabled
+2025-08-10T15:20:54.120+03:00  INFO 21404 --- [/task-management] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-10T15:20:54.191+03:00  INFO 21404 --- [/task-management] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2025-08-10T15:20:54.504+03:00  INFO 21404 --- [/task-management] [restartedMain] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5832bda6
+2025-08-10T15:20:54.506+03:00  INFO 21404 --- [/task-management] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2025-08-10T15:20:54.629+03:00  INFO 21404 --- [/task-management] [restartedMain] o.h.o.c.pooling                          : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-10T15:20:56.382+03:00  INFO 21404 --- [/task-management] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-10T15:20:56.479+03:00 ERROR 21404 --- [/task-management] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [tasks]
+2025-08-10T15:20:56.480+03:00  WARN 21404 --- [/task-management] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [tasks]
+2025-08-10T15:20:56.482+03:00  INFO 21404 --- [/task-management] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2025-08-10T15:20:56.492+03:00  INFO 21404 --- [/task-management] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2025-08-10T15:20:56.497+03:00  INFO 21404 --- [/task-management] [restartedMain] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2025-08-10T15:20:56.520+03:00  INFO 21404 --- [/task-management] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-08-10T15:20:56.555+03:00 ERROR 21404 --- [/task-management] [restartedMain] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [tasks]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1826) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) ~[spring-context-6.2.9.jar:6.2.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.9.jar:6.2.9]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) [spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) [spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) [spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) [spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) [spring-boot-3.5.4.jar:3.5.4]
+	at com.self.task_management.TaskManagementApplication.main(TaskManagementApplication.java:10) [classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) [spring-boot-devtools-3.5.4.jar:3.5.4]
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [tasks]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:431) ~[spring-orm-6.2.9.jar:6.2.9]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.9.jar:6.2.9]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.9.jar:6.2.9]
+	... 20 more
+Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [tasks]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:136) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.tool.schema.internal.GroupedSchemaValidatorImpl.validateTables(GroupedSchemaValidatorImpl.java:46) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.performValidation(AbstractSchemaValidator.java:99) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.doValidation(AbstractSchemaValidator.java:77) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:289) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1517) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.9.jar:6.2.9]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.2.9.jar:6.2.9]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.9.jar:6.2.9]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.9.jar:6.2.9]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.9.jar:6.2.9]
+	... 20 more
+
+2025-08-10T15:28:47.136+03:00  INFO 5140 --- [/task-management] [restartedMain] c.s.t.TaskManagementApplication          : Starting TaskManagementApplication using Java 17.0.12 with PID 5140 (C:\Users\Dell\Documents\IntelliJProjects\task-management\target\classes started by Dell in C:\Users\Dell\Documents\IntelliJProjects\task-management)
+2025-08-10T15:28:47.155+03:00  INFO 5140 --- [/task-management] [restartedMain] c.s.t.TaskManagementApplication          : The following 1 profile is active: "local"
+2025-08-10T15:28:47.243+03:00  INFO 5140 --- [/task-management] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-10T15:28:47.243+03:00  INFO 5140 --- [/task-management] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-10T15:28:48.798+03:00  INFO 5140 --- [/task-management] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-10T15:28:48.917+03:00  INFO 5140 --- [/task-management] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93 ms. Found 2 JPA repository interfaces.
+2025-08-10T15:28:49.883+03:00  INFO 5140 --- [/task-management] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2025-08-10T15:28:49.911+03:00  INFO 5140 --- [/task-management] [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2025-08-10T15:28:49.912+03:00  INFO 5140 --- [/task-management] [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-10T15:28:50.016+03:00  INFO 5140 --- [/task-management] [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2025-08-10T15:28:50.020+03:00  INFO 5140 --- [/task-management] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2772 ms
+2025-08-10T15:28:50.371+03:00  INFO 5140 --- [/task-management] [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-10T15:28:50.484+03:00  INFO 5140 --- [/task-management] [restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-10T15:28:50.550+03:00  INFO 5140 --- [/task-management] [restartedMain] o.h.c.i.RegionFactoryInitiator           : HHH000026: Second-level cache disabled
+2025-08-10T15:28:51.026+03:00  INFO 5140 --- [/task-management] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-10T15:28:51.080+03:00  INFO 5140 --- [/task-management] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2025-08-10T15:28:51.405+03:00  INFO 5140 --- [/task-management] [restartedMain] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@e369024
+2025-08-10T15:28:51.409+03:00  INFO 5140 --- [/task-management] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2025-08-10T15:28:51.557+03:00  INFO 5140 --- [/task-management] [restartedMain] o.h.o.c.pooling                          : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-10T15:28:53.323+03:00  INFO 5140 --- [/task-management] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-10T15:28:53.386+03:00 DEBUG 5140 --- [/task-management] [restartedMain] o.h.SQL                                  : create table TASK_MANAGEMENT.tasks (task_id bigint generated by default as identity, created_at timestamp(6) not null, description varchar(255), due_date date, status varchar(255) check (status in ('PENDING','IN_PROGRESS','COMPLETED')), title varchar(255) not null, updated_at timestamp(6) not null, user_id bigint not null, primary key (task_id))
+2025-08-10T15:28:53.401+03:00  WARN 5140 --- [/task-management] [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "create table TASK_MANAGEMENT.tasks (task_id bigint generated by default as identity, created_at timestamp(6) not null, description varchar(255), due_date date, status varchar(255) check (status in ('PENDING','IN_PROGRESS','COMPLETED')), title varchar(255) not null, updated_at timestamp(6) not null, user_id bigint not null, primary key (task_id))" via JDBC [ERROR: schema "task_management" does not exist
+  Position: 14]
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table TASK_MANAGEMENT.tasks (task_id bigint generated by default as identity, created_at timestamp(6) not null, description varchar(255), due_date date, status varchar(255) check (status in ('PENDING','IN_PROGRESS','COMPLETED')), title varchar(255) not null, updated_at timestamp(6) not null, user_id bigint not null, primary key (task_id))" via JDBC [ERROR: schema "task_management" does not exist
+  Position: 14]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:576) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:516) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:316) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:80) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:233) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1517) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.9.jar:6.2.9]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.2.9.jar:6.2.9]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.9.jar:6.2.9]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.9.jar:6.2.9]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) [spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) [spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) [spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) [spring-context-6.2.9.jar:6.2.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) [spring-context-6.2.9.jar:6.2.9]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) [spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) [spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) [spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) [spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) [spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) [spring-boot-3.5.4.jar:3.5.4]
+	at com.self.task_management.TaskManagementApplication.main(TaskManagementApplication.java:10) [classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) [spring-boot-devtools-3.5.4.jar:3.5.4]
+Caused by: org.postgresql.util.PSQLException: ERROR: schema "task_management" does not exist
+  Position: 14
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2734) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2421) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:518) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:435) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:357) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:342) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:318) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:313) ~[postgresql-42.7.7.jar:42.7.7]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95) ~[HikariCP-6.3.1.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-6.3.1.jar:?]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	... 42 more
+
+2025-08-10T15:28:53.401+03:00 DEBUG 5140 --- [/task-management] [restartedMain] o.h.SQL                                  : create table TASK_MANAGEMENT.users (user_id bigint generated by default as identity, created_at timestamp(6) not null, email varchar(255) not null, password varchar(255) not null, updated_at timestamp(6) not null, user_name varchar(255) not null, primary key (user_id))
+2025-08-10T15:28:53.401+03:00  WARN 5140 --- [/task-management] [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "create table TASK_MANAGEMENT.users (user_id bigint generated by default as identity, created_at timestamp(6) not null, email varchar(255) not null, password varchar(255) not null, updated_at timestamp(6) not null, user_name varchar(255) not null, primary key (user_id))" via JDBC [ERROR: schema "task_management" does not exist
+  Position: 14]
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table TASK_MANAGEMENT.users (user_id bigint generated by default as identity, created_at timestamp(6) not null, email varchar(255) not null, password varchar(255) not null, updated_at timestamp(6) not null, user_name varchar(255) not null, primary key (user_id))" via JDBC [ERROR: schema "task_management" does not exist
+  Position: 14]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:576) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:516) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:316) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:80) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:233) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1517) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.9.jar:6.2.9]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.2.9.jar:6.2.9]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.9.jar:6.2.9]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.9.jar:6.2.9]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) [spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) [spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) [spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) [spring-context-6.2.9.jar:6.2.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) [spring-context-6.2.9.jar:6.2.9]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) [spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) [spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) [spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) [spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) [spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) [spring-boot-3.5.4.jar:3.5.4]
+	at com.self.task_management.TaskManagementApplication.main(TaskManagementApplication.java:10) [classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) [spring-boot-devtools-3.5.4.jar:3.5.4]
+Caused by: org.postgresql.util.PSQLException: ERROR: schema "task_management" does not exist
+  Position: 14
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2734) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2421) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:518) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:435) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:357) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:342) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:318) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:313) ~[postgresql-42.7.7.jar:42.7.7]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95) ~[HikariCP-6.3.1.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-6.3.1.jar:?]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	... 42 more
+
+2025-08-10T15:28:53.417+03:00 DEBUG 5140 --- [/task-management] [restartedMain] o.h.SQL                                  : alter table if exists TASK_MANAGEMENT.users drop constraint if exists UK6dotkott2kjsp8vw4d0m25fb7
+2025-08-10T15:28:53.419+03:00  WARN 5140 --- [/task-management] [restartedMain] o.h.e.j.s.SqlExceptionHelper             : SQL Warning Code: 0, SQLState: 00000
+2025-08-10T15:28:53.420+03:00  WARN 5140 --- [/task-management] [restartedMain] o.h.e.j.s.SqlExceptionHelper             : relation "users" does not exist, skipping
+2025-08-10T15:28:53.420+03:00 DEBUG 5140 --- [/task-management] [restartedMain] o.h.SQL                                  : alter table if exists TASK_MANAGEMENT.users add constraint UK6dotkott2kjsp8vw4d0m25fb7 unique (email)
+2025-08-10T15:28:53.421+03:00  WARN 5140 --- [/task-management] [restartedMain] o.h.e.j.s.SqlExceptionHelper             : SQL Warning Code: 0, SQLState: 00000
+2025-08-10T15:28:53.421+03:00  WARN 5140 --- [/task-management] [restartedMain] o.h.e.j.s.SqlExceptionHelper             : relation "users" does not exist, skipping
+2025-08-10T15:28:53.422+03:00 DEBUG 5140 --- [/task-management] [restartedMain] o.h.SQL                                  : alter table if exists TASK_MANAGEMENT.tasks add constraint FK6s1ob9k4ihi75xbxe2w0ylsdh foreign key (user_id) references TASK_MANAGEMENT.users
+2025-08-10T15:28:53.423+03:00  WARN 5140 --- [/task-management] [restartedMain] o.h.e.j.s.SqlExceptionHelper             : SQL Warning Code: 0, SQLState: 00000
+2025-08-10T15:28:53.423+03:00  WARN 5140 --- [/task-management] [restartedMain] o.h.e.j.s.SqlExceptionHelper             : relation "tasks" does not exist, skipping
+2025-08-10T15:28:53.425+03:00  INFO 5140 --- [/task-management] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-10T15:28:53.890+03:00  WARN 5140 --- [/task-management] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-10T15:28:54.042+03:00 DEBUG 5140 --- [/task-management] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2025-08-10T15:28:54.216+03:00 DEBUG 5140 --- [/task-management] [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-08-10T15:28:54.276+03:00 DEBUG 5140 --- [/task-management] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-08-10T15:28:54.361+03:00 DEBUG 5140 --- [/task-management] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-08-10T15:28:54.953+03:00  WARN 5140 --- [/task-management] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 95214ac2-4e8c-45c1-84f2-74e475e43789
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-08-10T15:28:54.964+03:00  INFO 5140 --- [/task-management] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-08-10T15:28:55.178+03:00  INFO 5140 --- [/task-management] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-10T15:28:55.259+03:00  INFO 5140 --- [/task-management] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2025-08-10T15:28:55.276+03:00  INFO 5140 --- [/task-management] [restartedMain] c.s.t.TaskManagementApplication          : Started TaskManagementApplication in 9.102 seconds (process running for 10.482)
+2025-08-10T15:31:47.977+03:00  INFO 5140 --- [/task-management] [SpringApplicationShutdownHook] o.s.b.w.e.t.GracefulShutdown             : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-10T15:31:48.533+03:00  INFO 5140 --- [/task-management] [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown             : Graceful shutdown complete
+2025-08-10T15:31:48.538+03:00  INFO 5140 --- [/task-management] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-10T15:31:48.547+03:00  INFO 5140 --- [/task-management] [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2025-08-10T15:31:48.553+03:00  INFO 5140 --- [/task-management] [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
