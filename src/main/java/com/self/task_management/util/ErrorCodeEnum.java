@@ -17,6 +17,9 @@ public enum ErrorCodeEnum {
     USER_NOT_FOUND_ERROR("User not found", USER_NOT_FOUND_CODE, "User not found"),
     EMAIL_FOUND_ERROR("Email found, please create new one", EMAIL_FOUND_CODE, "Email found, please create new one"),
     WRONG_EMAIL_PASSWORD("Email or Password one of them wrong, please try again", AUTHENTICATION_ERROR_CODE, "Email or Password one of them wrong, please try again"),
+    TASK_NAME_ERROR("Task name is required", TASK_NAME_ERROR_CODE, "Task name is required"),
+    USER_ID_ERROR("User id is required", USER_ID_ERROR_CODE, "User id is required"),
+    USER_ID_NOT_RELATED_TO_EMAIL("User id not related to email", USER_ID_ERROR_CODE, "User id not related to email"),
     DEFAULT("Default error", DEFAULT_CODE, "Default error");
     private final String key;
     private final String code;

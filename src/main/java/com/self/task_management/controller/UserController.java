@@ -21,24 +21,41 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api/user")
 public class UserController {
-     private final String CONTROLLER_NAME = this.getClass().getName();
+     private final String CONTROLLER = this.getClass().getSimpleName();
      private final UserService userService;
 
+     /**
+      * Handles user registration requests. Validates the incoming request, processes it,
+      * and returns a response with the registered user details.
+      *
+      * @param request the request body containing user registration details
+      * @param bindingResult object holding the validation results of the request
+      * @return a ResponseEntity containing the registered user details
+      *         encapsulated in a UserResDTO object
+      */
      @PostMapping("/register")
      public ResponseEntity<UserResDTO> register(@Valid @RequestBody UserRegistrationReqDTO request, BindingResult bindingResult) {
          ValidationUtils.checkValidationErrors(bindingResult);
-         log.info("{}:: register STARTED with request: {}" , CONTROLLER_NAME, request);
+         log.info("{}:: register STARTED with request: {}" , CONTROLLER, request);
          UserResDTO response = userService.register(request);
-         log.info("{}:: register FINISHED with response: {}" , CONTROLLER_NAME, response);
+         log.info("{}:: register FINISHED with response: {}" , CONTROLLER, response);
          return ResponseEntity.ok(response);
      }
 
+    /**
+     * Handles the login process for a user by validating the provided credentials
+     * and returning an authentication response containing a token and user details.
+     *
+     * @param request the login request data including email and password
+     * @param bindingResult the result of validation checks performed on the request
+     * @return a ResponseEntity containing the authentication response details
+     */
     @PostMapping("/login")
     public ResponseEntity<AuthResDTO> login(@Valid @RequestBody UserLoginReqDTO request, BindingResult bindingResult){
         ValidationUtils.checkValidationErrors(bindingResult);
-        log.info("{}:: login STARTED with request: {}" , CONTROLLER_NAME, request);
+        log.info("{}:: login STARTED with request: {}" , CONTROLLER, request);
         AuthResDTO response = userService.login(request);
-        log.info("{}:: login FINISHED with response: {}" , CONTROLLER_NAME, response);
+        log.info("{}:: login FINISHED with response: {}" , CONTROLLER, response);
         return ResponseEntity.ok(response);
     }
 }
