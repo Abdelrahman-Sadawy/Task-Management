@@ -11,4 +11,6 @@ public class ErrorConstants {
     public static final String USER_NOT_FOUND_CODE = "4";
     public static final String EMAIL_FOUND_CODE = "5";
     public static final String AUTHENTICATION_ERROR_CODE = "6";
+    public static final String TASK_NAME_ERROR_CODE = "7";
+    public static final String USER_ID_ERROR_CODE = "8";
 }

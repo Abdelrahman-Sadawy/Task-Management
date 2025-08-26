@@ -13,6 +13,5 @@ public interface UserMapper {
     @Mapping(target = "updatedAt", ignore = true)
     User toEntity(UserRegistrationReqDTO reqDTO);
 
-    @Mapping(target = "password", ignore = true)
     UserResDTO toResponseDto(User user);
 }
