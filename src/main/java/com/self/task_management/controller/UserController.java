@@ -1,7 +1,6 @@
 package com.self.task_management.controller;
 
-import com.self.task_management.dto.request.UserLoginReqDTO;
-import com.self.task_management.dto.request.UserRegistrationReqDTO;
+import com.self.task_management.dto.request.*;
 import com.self.task_management.dto.response.AuthResDTO;
 import com.self.task_management.dto.response.UserResDTO;
 import com.self.task_management.service.UserService;
@@ -11,10 +10,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @Slf4j
 @RequiredArgsConstructor
@@ -58,4 +54,53 @@ public class UserController {
         log.info("{}:: login FINISHED with response: {}" , CONTROLLER, response);
         return ResponseEntity.ok(response);
     }
+
+    /**
+     * Updates user information based on the provided request data.
+     *
+     * @param request       the request containing updated user information
+     * @param bindingResult object holding the validation results of the request
+     * @return a ResponseEntity containing the updated user details
+     */
+    @PutMapping("/update")
+    public ResponseEntity<UserResDTO> update(@Valid @RequestBody UpdateUserReqDto request, BindingResult bindingResult){
+        ValidationUtils.checkValidationErrors(bindingResult);
+        log.info("{}:: update STARTED with request: {}", CONTROLLER, request);
+        UserResDTO response = userService.update(request);
+        log.info("{}:: update FINISHED with response: {}", CONTROLLER, response);
+        return ResponseEntity.ok(response);
+    }
+
+    /**
+     * Initiates the password reset process for a user with the specified email.
+     *
+     * @param request         the email address of the user requesting password reset
+     * @param bindingResult object holding the validation results of the request
+     * @return a ResponseEntity containing the user details after initiating reset
+     */
+    @PostMapping("/reset-password")
+    public ResponseEntity<?> resetPassword(@Valid @RequestBody ResetPasswordReqDto request, BindingResult bindingResult) {
+        ValidationUtils.checkValidationErrors(bindingResult);
+        log.info("{}:: resetPassword STARTED with email: {}", CONTROLLER, request);
+        UserResDTO response = userService.resetPassword(request);
+        log.info("{}:: resetPassword FINISHED with response: {}", CONTROLLER, response);
+        return ResponseEntity.ok().build();
+    }
+
+    /**
+     * Updates the password for an authenticated user.
+     *
+     * @param request       the request containing the new password information
+     * @param bindingResult object holding the validation results of the request
+     * @return a ResponseEntity containing the updated user details
+     */
+    @PutMapping("/update-password")
+    public ResponseEntity<UserResDTO> updatePassword(@Valid @RequestBody UpdatePasswordReqDto request, BindingResult bindingResult) {
+        ValidationUtils.checkValidationErrors(bindingResult);
+        log.info("{}:: updatePassword STARTED with request: {}", CONTROLLER, request);
+        UserResDTO response = userService.updatePassword(request);
+        log.info("{}:: updatePassword FINISHED with response: {}", CONTROLLER, response);
+        return ResponseEntity.ok(response);
+    }
+
 }

@@ -13,4 +13,5 @@ public class ErrorConstants {
     public static final String AUTHENTICATION_ERROR_CODE = "6";
     public static final String TASK_NAME_ERROR_CODE = "7";
     public static final String USER_ID_ERROR_CODE = "8";
+    public static final String SEND_RESET_PW_EMAIL_ERROR = "9";
 }

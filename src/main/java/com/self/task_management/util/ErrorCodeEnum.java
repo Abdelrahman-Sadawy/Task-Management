@@ -20,7 +20,8 @@ public enum ErrorCodeEnum {
     TASK_NAME_ERROR("Task name is required", TASK_NAME_ERROR_CODE, "Task name is required"),
     USER_ID_ERROR("User id is required", USER_ID_ERROR_CODE, "User id is required"),
     USER_ID_NOT_RELATED_TO_EMAIL("User id not related to email", USER_ID_ERROR_CODE, "User id not related to email"),
-    DEFAULT("Default error", DEFAULT_CODE, "Default error");
+    DEFAULT("Default error", DEFAULT_CODE, "Default error"),
+    EMAIL_SENDING_ERROR("Email sending error for reset password", SEND_RESET_PW_EMAIL_ERROR , "Email sending error for reset password");
     private final String key;
     private final String code;
     private final String description;
